@@ -5,7 +5,7 @@ Study ARM based embedded system and learn about HW &amp; SW implementation techn
 
 ## Equipment:STM32F107VCT6 KITV1
 
-##Documents   
+## Documents   
     > DATA Sheet Stm32F105xx, Stm32F107xx
     
     > RM0008 Reference manual for STM32F101xx, STM32F102xx, STM32F103xx, STM32F105xx 
