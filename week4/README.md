@@ -95,6 +95,7 @@
 ![23](https://user-images.githubusercontent.com/111568619/192112513-4d61710c-0534-4eb4-a7e5-7cebdd18cb0b.png)
 
 ![24](https://user-images.githubusercontent.com/111568619/192112523-ffd53605-5e0f-4683-af57-90f98ac583bb.png)
+
     4. 임베디드 보드, 릴레이 모듈, 모터를 점퍼선을 활용하여 회로를 구성한다.
 
       4.1. 임베디드 보드의 GPIO PC8핀과 릴레이 모듈의 제어 신호(IN)단자를 연결한다.
@@ -105,6 +106,7 @@
     5. 데이터시트와 레퍼런스를 참고하여 실험에 사용될 레지스터를 찾아 정의한다.
 
 ![25](https://user-images.githubusercontent.com/111568619/192112564-6eaf33d6-588f-4374-bb61-c758e96b007b.png)
+
     6. 각 조작(버튼 누름)에 대응하는 LED 및 모터 동작의 제어가 미션에서 
     주어진 조건에 맞게 폴링(Polling)방식으로 이루어지게끔 만들 코드를 작성한다. 
     (실험 결과 단락에  자세히 설명)
