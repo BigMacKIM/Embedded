@@ -1,15 +1,18 @@
 # 0.실험 목적
 
-    1.Data Sheet 및 Reference Manual을 참고하여 해당 레지스터 및 주소에 대한 설정 이해
-    2.IAR EW에서 프로젝트 생성 후 관련 설정 변경
-    3.조이스틱을 이용한 LED 제어
+1.Data Sheet 및 Reference Manual을 참고하여 해당 레지스터 및 주소에 대한 설정 이해
+
+2.IAR EW에서 프로젝트 생성 후 관련 설정 변경
+
+3.조이스틱을 이용한 LED 제어
+
     > UP   :PD7 LED On 나머지 OFF
     > LEFT :PD4 LED On 나머지 OFF
     > DOWN :PD3 LED On 나머지 OFF
     > RIGHT:PD2 LED On 나머지 OFF
     > 중립(Selection 아님): 모든 LED OFF
 
-    4.정상적인 동작 유무 확인
+4.정상적인 동작 유무 확인
 
 ##
 # 1. 배경 지식
