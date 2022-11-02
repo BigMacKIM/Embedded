@@ -167,8 +167,8 @@ idx == 1 – LED 역방향 출력
 ![dd20](https://user-images.githubusercontent.com/111568619/199390798-566acde5-c668-49bf-bb7a-f01f1b792121.png)
 
 LED 제어 모습
-LED 제어 동영상 링크: https://photos.app.goo.gl/MVJKDDyQSkUckQYw6
 ![dd21](https://user-images.githubusercontent.com/111568619/199390837-2c6dd7a2-6779-4700-bd77-68140c0991ae.png)
+
 Putty 메시지 출력 모습
 
 ## 4. 결론
