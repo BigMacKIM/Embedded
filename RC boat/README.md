@@ -34,3 +34,13 @@
 
  no output for the direction\
  depth through ultrasonic waves is received in real time.
+ 
+ <img src="https://user-images.githubusercontent.com/111568619/209885274-2c0c4337-24f6-4d67-bb91-62d2bb58917c.jpg" height="40%" width="40%">
+ 
+ 
+ # Video
+https://user-images.githubusercontent.com/111568619/209886297-f1529811-e7ca-474b-89da-473788950152.mp4
+
+
+
+
