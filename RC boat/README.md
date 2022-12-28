@@ -20,5 +20,5 @@
   
   # The external appearance
   ![KakaoTalk_20221222_181733605](https://user-images.githubusercontent.com/111568619/209884291-60a89eb4-d5ff-42d2-9f67-2e1f4470f2c1.jpg)
-![KakaoTalk_20221222_191117738](https://user-images.githubusercontent.com/111568619/209884369-524d37f2-6792-4afb-a1d9-765aa2d71bad.jpg)
-![KakaoTalk_20221222_181733605_01](https://user-images.githubusercontent.com/111568619/209884373-fc0b48c6-8180-4b95-88d6-554fdf615f90.jpg)
+  ![KakaoTalk_20221222_191117738](https://user-images.githubusercontent.com/111568619/209884369-524d37f2-6792-4afb-a1d9-765aa2d71bad.jpg)
+
