@@ -23,3 +23,12 @@
    <img src="https://user-images.githubusercontent.com/111568619/209884291-60a89eb4-d5ff-42d2-9f67-2e1f4470f2c1.jpg" height="30%" width="30%"> 
    <img src="https://user-images.githubusercontent.com/111568619/209884369-524d37f2-6792-4afb-a1d9-765aa2d71bad.jpg" height="30%" width="30%">
    </p>
+
+# Bluetooth Communication
+ Bluetooth communication with the boat via Android's terminal application\
+   input W: Forward\
+   input S: Reverse\
+   input A: Left Turn\
+   input D: Right Turn\
+ no output for the direction\
+ depth through ultrasonic waves is received in real time.
