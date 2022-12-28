@@ -26,9 +26,11 @@
 
 # Bluetooth Communication
  Bluetooth communication with the boat via Android's terminal application\
-    input W: Forward\
-    input S: Reverse\
+ > input W: Forward\
+ > input S: Reverse\
  > input A: Left Turn\
  > input D: Right Turn\
+
+
  no output for the direction\
  depth through ultrasonic waves is received in real time.
