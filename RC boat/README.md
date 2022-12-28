@@ -2,11 +2,11 @@
  RC Boat with UltraWave in Stm32 
  
  # Contributors
-  강찬미\
-  김민승\
-  김민종\
-  김정호\
-  배재홍
+   강찬미\
+   김민승\
+   김민종\
+   김정호\
+   배재홍
   
  # Specifications
  Make RC boat through stm32 board.(STM32F107VCT6) \
@@ -29,7 +29,7 @@
  > input W: Forward\
  > input S: Reverse\
  > input A: Left Turn\
- > input D: Right Turn\
+ > input D: Right Turn
 
 
  no output for the direction\
