@@ -59,7 +59,7 @@ void GpioInit() {
   GPIO_InitStructure_trig.GPIO_Speed = GPIO_Speed_50MHz;
   GPIO_InitStructure_trig.GPIO_Mode = GPIO_Mode_Out_PP;
   GPIO_Init(GPIOA, &GPIO_InitStructure_trig);
-
+                                 
   GPIO_InitTypeDef GPIO_InitStructure_echo;      //PA1
   GPIO_InitStructure_echo.GPIO_Pin = GPIO_Pin_1;
   GPIO_InitStructure_echo.GPIO_Speed = GPIO_Speed_50MHz;
@@ -186,7 +186,7 @@ void TIM_configure() {
 uint32_t us = 0, sec = 0, ms=0;
 
 int32_t t_trig, t_echo = 0;
-int16_t echo_flag = -1;     // ÃÊ±â
+int16_t echo_flag = -1;     // ì´ˆê¸°
 int32_t dist_start = 0;
 int32_t dist_end = 0;
 int32_t dist = 0;
@@ -211,7 +211,7 @@ void USART1_IRQHandler() {
        // the most recent received data by the USART1 peripheral
         word = USART_ReceiveData(USART1);
         sendDataUART2(word);
-
+        
         // TODO implement
         // clear 'Read data register not empty' flag
        USART_ClearITPendingBit(USART1,USART_IT_RXNE);
@@ -219,7 +219,7 @@ void USART1_IRQHandler() {
 }
 
 void USART2_IRQHandler() {
-
+   
    char word;
     if(USART_GetITStatus(USART2, USART_IT_RXNE)!=RESET){
        // the most recent received data by the USART2 peripheral
@@ -250,9 +250,9 @@ void changemotor(char c){  //(percent,move) 3.5 (-90),  7.5(0), 10(90)
   HIGH.TIM_OCPolarity = TIM_OCPolarity_High;
   HIGH.TIM_OutputState = TIM_OutputState_Enable;
   HIGH.TIM_Pulse = 200;
-
+  
   LOW.TIM_OCMode = TIM_OCMode_Inactive;
-
+  
   if(c == 'w') {
     TIM_OC1Init(TIM3, &HIGH);
     TIM_OC2Init(TIM3, &LOW);
@@ -263,7 +263,7 @@ void changemotor(char c){  //(percent,move) 3.5 (-90),  7.5(0), 10(90)
     TIM_OC1Init(TIM3, &LOW);
     TIM_OC2Init(TIM3, &HIGH);
     TIM_OC3Init(TIM3, &LOW);
-    TIM_OC4Init(TIM3, &HIGH);
+    TIM_OC4Init(TIM3, &HIGH);   
   }
   else if(c == 'a') {
     TIM_OC1Init(TIM3, &HIGH);
@@ -281,7 +281,7 @@ void changemotor(char c){  //(percent,move) 3.5 (-90),  7.5(0), 10(90)
     TIM_OC1Init(TIM3, &LOW);
     TIM_OC2Init(TIM3, &LOW);
     TIM_OC3Init(TIM3, &LOW);
-    TIM_OC4Init(TIM3, &LOW);
+    TIM_OC4Init(TIM3, &LOW);    
   }
 }
 
@@ -304,11 +304,11 @@ void trigger_pulse() {
 
     while(GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_1) != Bit_SET);
     t_echo=0;
-
+    
     while(GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_1) != Bit_RESET);
     dist = (t_echo)/6;
     LCD_ShowNum(50, 50, dist, 10, BLACK, WHITE);
-
+    
     int i = 2;
     while (dist > 0){
       dist_word[i] = (dist%10) + '0';
@@ -331,7 +331,7 @@ void trigger_pulse() {
 
 
 int main() {
-  SystemInit();
+  SystemInit();                                                              
   RCCInit();
   GpioInit();
   USART1_Init();
