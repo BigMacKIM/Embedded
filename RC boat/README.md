@@ -9,7 +9,7 @@
   배재홍
   
  # Specifications
- Make RC boat through stm32 board.(STM32F107VCT6)
+ Make RC boat through stm32 board.(STM32F107VCT6) \
  Operation: L293 Module (Directions: forward, backward, left, right)
  Communication: Bluetooth(FB155BC_SMD BlueTooth Module)
  Motors: DC motor(3.3~5V)
