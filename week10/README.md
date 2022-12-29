@@ -8,7 +8,7 @@
 전역변수에 저장했던 조도센서 값 출력
 (LCD, Touch 라이브러리 파일 참고, LCD:240 x 320)
 
-![그림1](https://user-images.githubusercontent.com/111568619/209890665-ee7480e2-775c-47ab-8f4d- 199f14826a15.png)
+![그림1](https://user-images.githubusercontent.com/111568619/209890729-6fd800d0-0481-4bcb-8f8f-c0e691189f12.png)
 
 ## 2.2 실험 방법
     1. J-Link와 보드를 컴퓨터에 연결한다.
