@@ -8,7 +8,7 @@
 전역변수에 저장했던 조도센서 값 출력
 (LCD, Touch 라이브러리 파일 참고, LCD:240 x 320)
 
-  ![그림1](https://user-images.githubusercontent.com/111568619/209890665-ee7480e2-775c-47ab-8f4d- 199f14826a15.png)
+![그림1](https://user-images.githubusercontent.com/111568619/209890665-ee7480e2-775c-47ab-8f4d- 199f14826a15.png)
 
 ## 2.2 실험 방법
     1. J-Link와 보드를 컴퓨터에 연결한다.
@@ -20,7 +20,7 @@
         - DATA : D/C를 High, CS를 Low, WR을 Low로 두고 Data를 Display에게 전송,
 	       전송 후 CS를 High, WR을 High로 돌려놓는다.
          
-    ![그림2](https://user-images.githubusercontent.com/111568619/209890680-719e260a-762c-4f3f-a4fd-05f56359c101.png)
+![그림2](https://user-images.githubusercontent.com/111568619/209890680-719e260a-762c-4f3f-a4fd-05f56359c101.png)
 
 
     5. main에서 사용할 함수들을 정의 및 구현한다.
