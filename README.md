@@ -1,5 +1,5 @@
 # Embedded
-    Study ARM based embedded system and learn about HW &amp; SW implementation technology
+    Study ARM based embedded system and learn about HW & SW implementation technology
 
 ## Development environment 
     IAR EW for ARM 9.30.1
